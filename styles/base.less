@@ -47,6 +47,7 @@ atom-text-editor {
   }
 
   .selection .region {
+    text-decoration: underline;
     background-color: @syntax-selection-color;
   }
 }
@@ -55,7 +56,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @gray;
 }
 
 .syntax--keyword {
@@ -66,15 +67,15 @@ atom-text-editor {
   }
 
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @yellow;
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @red;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @purple;
   }
 }
 
@@ -90,11 +91,11 @@ atom-text-editor {
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @purple;
   }
 
   &.syntax--other.syntax--color {
-    color: @syntax-text-color;
+    color: @yellow;
   }
 
   &.syntax--other.syntax--symbol {
@@ -103,14 +104,15 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @syntax-text-color;
+  color: @light-orange;
 
   &.syntax--interpolation {
     color: @light-orange;
+    font-weight: bolder;
   }
 
   &.syntax--parameter.syntax--function {
-    color: @syntax-text-color;
+    color: @purple;
   }
 }
 
@@ -124,10 +126,10 @@ atom-text-editor {
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @green;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @green;
     }
   }
 
@@ -155,7 +157,7 @@ atom-text-editor {
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @red;
       font-weight: bold;
     }
 
@@ -177,7 +179,7 @@ atom-text-editor {
   }
 
   &.syntax--function  {
-      color: @light-blue;
+      color: @light-green;
       font-weight: bold;
 
     &.syntax--any-method {
@@ -188,12 +190,11 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @light-blue;
+    color: @light-green;
     font-weight: bold;
   }
   &.syntax--name.syntax--type {
     color: @light-orange;
-    text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
@@ -208,11 +209,11 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @light-red;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @light-orange;
 
     &.syntax--id {
       color: @blue;
@@ -249,7 +250,7 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @yellow;
     font-weight: bold;
   }
 
