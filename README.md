@@ -1,5 +1,3 @@
 # 303-syntax theme
 
-A short description of your theme.
-
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+A dark syntax theme loosely based on One Dark. The colours are a vague combination between the One Dark and Monokay color schemes.
