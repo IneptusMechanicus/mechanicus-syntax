@@ -56,7 +56,7 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @gray;
+  color: @light-gray;
 }
 
 .syntax--keyword {
@@ -84,7 +84,8 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @blue;
+  font-weight: bolder;
 
   &.syntax--character.syntax--escape {
     color: @syntax-text-color;
@@ -293,6 +294,45 @@ atom-text-editor {
   &.syntax--heading {
     color: @green;
   }
+}
+
+
+.syntax--source .syntax--python {
+
+    &.syntax--function-call {
+        color: @light-orange;
+        font-weight: bold;
+
+        &.syntax--arguments {
+            color: @syntax-text-color;
+            font-weight: normal;
+        }
+    }
+
+    &.syntax--definition {
+        color: @red;
+        font-weight: normal;
+    }
+
+    &.syntax--numeric {
+        color: @purple;
+    }
+
+    &.syntax--entity {
+        color: @light-orange;
+    }
+
+    &.syntax--parenthesis {
+        color: @red;
+    }
+
+    &.syntax--name {
+        color: @light-orange;
+    }
+
+    &.syntax--storage .syntax--type {
+        color: @blue;
+    }
 }
 
 
