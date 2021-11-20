@@ -1,8 +1,8 @@
 {
   "name": "mechanicus-syntax",
   "theme": "syntax",
-  "version": "3.0.0",
-  "description": "A syntax theme vaguely blending Atom One Dark and the Monokai syntax color schemes.",
+  "version": "4.0.0",
+  "description": "A camouflage looking theme, because code is never quite the way it seems.",
   "keywords": [
     "syntax",
     "theme"
