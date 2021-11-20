@@ -1,14 +1,14 @@
 {
-  "name": "303-syntax",
+  "name": "mechanicus-syntax",
   "theme": "syntax",
   "version": "3.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A syntax theme vaguely blending Atom One Dark and the Monokai syntax color schemes.",
   "keywords": [
     "syntax",
     "theme"
   ],
   "repository": "https://github.com/Reaper9806/303-syntax",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
