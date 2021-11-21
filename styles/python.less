@@ -1,0 +1,36 @@
+.syntax--source .syntax--python {
+    &.syntax--function-call {
+        color: @light-green;
+        font-weight: bold;
+
+        &.syntax--arguments {
+            color: @syntax-text-color;
+            font-weight: normal
+        }
+    }
+
+    &.syntax--definition {
+        color: darken(@orange, 30);
+        font-weight: normal;
+    }
+
+    &.syntax--numeric {
+        color: @purple;
+    }
+
+    &.syntax--entity {
+        color: @purple;
+    }
+
+    &.syntax--parenthesis {
+        color: darken(@orange, 30);
+    }
+
+    &.syntax--name {
+        color: @light-orange;
+    }
+
+    &.syntax--storage .syntax--type {
+        color: @blue;
+    }
+}
