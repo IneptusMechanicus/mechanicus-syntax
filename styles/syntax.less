@@ -72,7 +72,12 @@
 
 .syntax--punctuation {
 
-	&.syntax--definition {
+	&.syntax--key-value, {
+	    color: @yellow;
+	}
+
+	&.syntax--definition,
+	&.syntax--array {
 		color: darken(@orange, 30);
 
 		&.syntax--comment {
@@ -184,6 +189,4 @@
 	}
 }
 
-.syntax--html.syntax--punctuation, {
-    color: @yellow;
-}
+//.syntax--html.syntax--punctuation
