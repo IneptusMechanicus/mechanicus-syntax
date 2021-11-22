@@ -10,7 +10,7 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ### CSS
 
-![css](https://user-images.githubusercontent.com/8884770/142826045-af5d3b5a-764c-4b46-accf-6ed25c4d6073.png)
+![css](https://lh4.googleusercontent.com/VDE-mBMUBKAGNwOpLg9TuwTyXNwbvdpStmx9RP0RfU6LM17wL-CHhC6qwNwOD1lHTNcZicMETWZpXogUOHK5=w1921-h928)
 
 ### JavaScript
 
