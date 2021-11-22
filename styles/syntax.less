@@ -59,7 +59,7 @@
 }
 
 .syntax--string {
-	color: darken(@dark-green, 10);
+	color: darken(@dark-green, 20);
 
 	&.syntax--regexp {
 		color: @dark-green;
@@ -139,14 +139,14 @@
 	}
 
 	&.syntax--other.syntax--inherited-class {
-		color: @dark-green;
+		color: @yellow;
 	}
 
 	&.syntax--name.syntax--section {
 		color: @blue;
 	}
 
-	&.syntax--name.syntax--tag {
+	&.syntax--name.syntax--tag, {
 		color: @yellow;
 	}
 
@@ -172,7 +172,8 @@
 		color: @blue;
 	}
 
-	&.syntax--selector, &.syntax--parameters {
+	&.syntax--selector,
+    &.syntax--parameters {
 		color: @purple;
 		font-weight: bold;
 	}

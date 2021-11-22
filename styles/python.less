@@ -1,10 +1,11 @@
 .syntax--source .syntax--python {
+    &.syntax--function.syntax--name,
     &.syntax--function-call {
         color: @light-green;
         font-weight: bold;
 
         &.syntax--arguments {
-            color: @syntax-text-color;
+            color: @purple;
             font-weight: normal
         }
     }
@@ -14,23 +15,47 @@
         font-weight: normal;
     }
 
-    &.syntax--numeric {
+    &.syntax--numeric,
+    &.syntax--entity,
+    &.syntax--parameter {
         color: @purple;
+        font-weight: normal;
     }
 
-    &.syntax--entity {
-        color: @purple;
+    &.syntax--section,
+    &.syntax--punctuation {
+        color: white;
     }
 
-    &.syntax--parenthesis {
+    &.syntax--parenthesis,
+    &.syntax--definition.syntax--list {
         color: darken(@orange, 30);
     }
 
-    &.syntax--name {
-        color: @light-orange;
+    &.syntax--storage
+    &.syntax--type {
+        color: @blue;
     }
 
-    &.syntax--storage .syntax--type {
-        color: @blue;
+    &.syntax--comment,
+    &.syntax--docstring, {
+        color: @light-gray;
+
+        .syntax--definition {
+            color: @light-gray;
+        }
+    }
+
+    &.syntax--meta {
+        .syntax--definition {
+            color: darken(@orange, 30);
+        }
+
+        .syntax--string {
+            &.syntax--begin,
+            &.syntax--end {
+                color: white;
+            }
+        }
     }
 }
