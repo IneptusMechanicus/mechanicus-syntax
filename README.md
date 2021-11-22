@@ -6,7 +6,7 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ### HTML
 
-![html](https://user-images.githubusercontent.com/8884770/142825999-0e55075a-c21a-4e75-9bf5-72d7417932ff.png)
+![html](https://lh6.googleusercontent.com/U6ekiy9yw0o45IbRkOUDMk_P-sJgGESduB0NGoT_AlvdkBZTSTQrYWsl1AEbMT3L_sIZ3RXFfh0VsYVef17O=w930-h369)
 
 ### CSS
 
@@ -14,17 +14,17 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ### JavaScript
 
-![javascript](https://user-images.githubusercontent.com/8884770/142826134-c6a76e51-a160-4bda-9937-200d549c5c05.png)
+![javascript](https://lh4.googleusercontent.com/V1mbkP3jy6aguhwABEL5KED-lLfEcgRlx-0q1P7EwtVtZANYQOg3j6IO_TY1147PoyGpIC_Nx8tzLBRBGdb8=w930-h889)
 
-![Screenshot from 2021-11-22 10-11-08](https://user-images.githubusercontent.com/8884770/142826272-af0c000c-510c-40dd-9a79-d3689315407a.png)
+![javascript-2](https://lh4.googleusercontent.com/cGgYwWfFrdZsHSZx866gvbqg2cbGPp80N39gBxc9Jwy5nk38TzHC0nGwngld7b_uHv0_ADIiOUx8naG_GQJn=w930-h369)
 
 ### PHP
 
-![php](https://user-images.githubusercontent.com/8884770/142826185-5a3430a5-cab1-4767-aafc-d1642676214d.png)
+![php](https://lh3.googleusercontent.com/Jb6sY_IlxA2cSGlKnOL4ncZQ_pSz_jFbNC0sw70AW4IxZTChzrKJaYrwFGMFoKqLadfTxq_9vuLFFuW_9YoQ=w930-h889-rw)
 
 ### Python
 
-![python](https://user-images.githubusercontent.com/8884770/142826232-39782af9-a51b-48b7-86bd-8cc5ccca68a3.png)
+![python](https://lh6.googleusercontent.com/eePKnAcElDr5PMF91CkKD4ksGM37rl_WEVNCyqltjYuF2o7m9gry2ld0fhaLD9AJXpf1BN2-K-rxCuyc-Yxf=w930-h889)
 
 
 ## Roadmap
