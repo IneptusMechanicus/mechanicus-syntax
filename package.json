@@ -1,7 +1,7 @@
 {
   "name": "mechanicus-syntax",
   "theme": "syntax",
-  "version": "4.2.1",
+  "version": "4.1.0",
   "description": "A camouflage looking theme, because code is never quite the way it seems.",
   "keywords": [
     "syntax",
