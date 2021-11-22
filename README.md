@@ -6,7 +6,7 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ### HTML
 
-<iframe src="https://drive.google.com/file/d/1ztNdJEYd23IRMa4Amz-osbmORfK2GMCG/preview" width="640" height="480" allow="autoplay"></iframe>
+![html](https://user-images.githubusercontent.com/8884770/142825999-0e55075a-c21a-4e75-9bf5-72d7417932ff.png)
 
 ### CSS
 
