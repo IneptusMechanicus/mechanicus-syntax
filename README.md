@@ -6,26 +6,25 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ### HTML
 
-![html](https://lh6.googleusercontent.com/U6ekiy9yw0o45IbRkOUDMk_P-sJgGESduB0NGoT_AlvdkBZTSTQrYWsl1AEbMT3L_sIZ3RXFfh0VsYVef17O=w930-h369)
+![html](https://user-images.githubusercontent.com/8884770/143681444-eee6d8fa-9aba-4836-9de3-7a1a4dac9e94.png)
 
 ### CSS
 
-![css](https://lh4.googleusercontent.com/VDE-mBMUBKAGNwOpLg9TuwTyXNwbvdpStmx9RP0RfU6LM17wL-CHhC6qwNwOD1lHTNcZicMETWZpXogUOHK5=w1921-h928)
+![css](https://user-images.githubusercontent.com/8884770/143681457-532fdb84-0643-4a11-b7d0-adc43a099abc.png)
 
 ### JavaScript
 
-![javascript](https://lh4.googleusercontent.com/V1mbkP3jy6aguhwABEL5KED-lLfEcgRlx-0q1P7EwtVtZANYQOg3j6IO_TY1147PoyGpIC_Nx8tzLBRBGdb8=w930-h889)
+![javascript](https://user-images.githubusercontent.com/8884770/143681470-e042192d-4a4c-4ccf-b021-08fc64b02003.png)
 
-![javascript-2](https://lh4.googleusercontent.com/cGgYwWfFrdZsHSZx866gvbqg2cbGPp80N39gBxc9Jwy5nk38TzHC0nGwngld7b_uHv0_ADIiOUx8naG_GQJn=w930-h369)
+![javascript-2](https://user-images.githubusercontent.com/8884770/143681493-e7a94c31-d8fd-4439-92ba-3f829edece21.png)
 
 ### PHP
 
-![php](https://lh3.googleusercontent.com/Jb6sY_IlxA2cSGlKnOL4ncZQ_pSz_jFbNC0sw70AW4IxZTChzrKJaYrwFGMFoKqLadfTxq_9vuLFFuW_9YoQ=w930-h889-rw)
+![php](https://user-images.githubusercontent.com/8884770/143681515-79741869-a18c-453f-bacd-19a004704bd2.png)
 
 ### Python
 
-![python](https://lh6.googleusercontent.com/eePKnAcElDr5PMF91CkKD4ksGM37rl_WEVNCyqltjYuF2o7m9gry2ld0fhaLD9AJXpf1BN2-K-rxCuyc-Yxf=w930-h889)
-
+![python](https://user-images.githubusercontent.com/8884770/143681535-a0356d05-278f-44c4-9978-a319c744ab4b.png)
 
 ## Roadmap
 
