@@ -1,15 +1,15 @@
 {
-  "name": "mechanicus-syntax",
-  "theme": "syntax",
-  "version": "4.1.5",
-  "description": "A camouflage looking theme, because code is never quite the way it seems.",
-  "keywords": [
-    "syntax",
-    "theme"
-  ],
-  "repository": "https://github.com/Reaper9806/mechanicus-syntax",
-  "license": "GPL-3.0",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+	"name": "mechanicus-syntax",
+	"theme": "syntax",
+	"version": "4.1.5",
+	"description": "A camouflage looking theme, because code is never quite the way it seems.",
+	"keywords": [
+		"syntax",
+		"theme"
+	],
+	"repository": "https://github.com/IneptusMechanicus/mechanicus-syntax",
+	"license": "GPL-3.0",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	}
 }
