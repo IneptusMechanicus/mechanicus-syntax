@@ -1,8 +1,10 @@
 # Mechanicus Syntax Theme
 
-Initially a blend between Monokai and One Dark, Mechanicus is a camouflage looking color scheme with slightly higher contrast.
+Mechanicus is a camouflage looking color scheme with slightly higher contrast.
 
 The theme works as intended for the following languages: PHP, JavaScript, HTML, CSS and Python (as of 4.1.0)
+
+For the best possible experience, use with Atom One Dark UI theme.
 
 ### HTML
 
@@ -28,4 +30,4 @@ The theme works as intended for the following languages: PHP, JavaScript, HTML, 
 
 ## Roadmap
 
-Since I primarily built this theme for myself, the last language I would like to properly colour is C/C++. With the theme as it is, the support is nearly ready, but it is not yet consistent with the other languages. If I decide to move to a new language, I might add consistent colouring for it as well.
+C++ and GDScript styles are still on the way. I'm also considering rust.
