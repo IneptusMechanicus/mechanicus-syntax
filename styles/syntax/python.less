@@ -1,61 +1,50 @@
-.syntax--source .syntax--python {
-	&.syntax--function.syntax--name,
-	&.syntax--function-call {
-		color: @light-green;
-		font-weight: bold;
-
-		&.syntax--arguments {
-			color: @purple;
-			font-weight: normal
-		}
-	}
-
-	&.syntax--definition {
-		color: darken(@orange, 30);
+.syntax--python {
+	&.syntax--keyword,
+	&.syntax--storage,
+	&.syntax--type,
+	&.syntax--logical {
+		color: @blue;
 		font-weight: normal;
+		font-style: italic;
 	}
-
-	&.syntax--numeric,
-	&.syntax--entity,
-	&.syntax--parameter {
-		color: @purple;
-		font-weight: normal;
+	
+	&.syntax--punctuation.syntax--begin,
+	&.syntax--punctuation.syntax--end {
+		color: @dark-brown;
 	}
-
-	&.syntax--section,
-	&.syntax--punctuation {
+	
+	&.syntax--punctuation.string.syntax--begin,
+	&.syntax--punctuation.string.syntax--end {
 		color: white;
 	}
-
-	&.syntax--parenthesis,
-	&.syntax--definition.syntax--list {
-		color: darken(@orange, 30);
+	
+	&.syntax--function,
+	&.syntax--punctuation.syntax--section.syntax--begin {
+		color: @yellow;
+		font-style: normal;
 	}
-
-	&.syntax--storage
-	&.syntax--type {
-		color: @blue;
+	
+	&.syntax--function-call,
+	&.syntax--builtin {
+		color: @light-green;
+		font-weight: bold;
 	}
-
-	&.syntax--comment,
-	&.syntax--docstring, {
-		color: @light-gray;
-
-		.syntax--definition {
-			color: @light-gray;
-		}
+	
+	&.syntax--parameter,
+	&.syntax--arguments {
+		color: @orange;
+		font-weight: normal;
 	}
-
-	&.syntax--meta {
-		.syntax--definition {
-			color: darken(@orange, 30);
-		}
-
-		.syntax--string {
-			&.syntax--begin,
-			&.syntax--end {
-				color: white;
-			}
-		}
+	
+	&.syntax--quoted {
+		font-style: italic;
+		font-weight: normal;
+	}
+	
+	&.syntax--section,
+	&.syntax--operator,
+	&.syntax--separator {
+		color: @yellow;
+		font-style: normal;
 	}
 }
