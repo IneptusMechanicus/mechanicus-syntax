@@ -13,8 +13,8 @@
 		color: @dark-brown;
 	}
 	
-	&.syntax--punctuation.string.syntax--begin,
-	&.syntax--punctuation.string.syntax--end {
+	&.syntax--punctuation.syntax--string.syntax--begin,
+	&.syntax--punctuation.syntax--string.syntax--end {
 		color: white;
 	}
 	
@@ -35,16 +35,16 @@
 		color: @orange;
 		font-weight: normal;
 	}
-	
-	&.syntax--quoted {
-		font-style: italic;
-		font-weight: normal;
-	}
-	
+
 	&.syntax--section,
 	&.syntax--operator,
 	&.syntax--separator {
 		color: @yellow;
 		font-style: normal;
+	}
+	
+	&.syntax--quoted.syntax--single {
+		font-style: italic;
+		font-weight: normal;
 	}
 }
